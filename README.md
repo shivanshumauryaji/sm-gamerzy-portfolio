@@ -259,3 +259,40 @@ document.addEventListener("mousemove", function(e){
 
 </body>
 </html>
+
+<section id="playlist" style="
+    padding: 80px 20px;
+    background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
+    text-align: center;
+">
+
+    <h2 style="
+        font-size: 36px;
+        color: #00ffcc;
+        margin-bottom: 40px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    ">
+        🎮 My Gaming Playlist
+    </h2>
+
+    <div style="
+        max-width: 900px;
+        margin: auto;
+        border-radius: 25px;
+        overflow: hidden;
+        box-shadow: 0 25px 60px rgba(0,0,0,0.8);
+        transition: 0.5s ease;
+    " class="playlist-box">
+
+        <iframe 
+            width="100%" 
+            height="500"
+            src="https://www.youtube.com/embed/videoseries?list=PLGbnbLddPO-fFqdgvhOXltamUhfjw0ofF"
+            frameborder="0"
+            allowfullscreen>
+        </iframe>
+
+    </div>
+
+</section>
