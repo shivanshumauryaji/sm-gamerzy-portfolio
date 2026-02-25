@@ -257,6 +257,22 @@ document.addEventListener("mousemove", function(e){
 });
 </script>
 
+<!-- Your existing website content -->
+
+<section id="playlist">
+    <h2>🎮 My Gaming Playlist</h2>
+
+    <iframe 
+        width="100%" 
+        height="500"
+        src="https://www.youtube.com/embed/videoseries?list=PLGbnbLddPO-fFqdgvhOXltamUhfjw0ofF"
+        frameborder="0"
+        allowfullscreen>
+    </iframe>
+</section>
+
+</body>
+</html>
 </body>
 </html>
 
